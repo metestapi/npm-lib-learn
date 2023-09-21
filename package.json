@@ -4,7 +4,7 @@
   "description": "learn how to deploy lib to npm",
   "main": "index.js",
   "scripts": {
-    "test": "0.0"
+    "test": "echo 1234"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/metestapi/npm-lib-learn/issues"
   },
-  "homepage": "https://github.com/metestapi/npm-lib-learn#readme"
+  "homepage": "https://github.com/metestapi/npm-lib-learn#readme",
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
 }
