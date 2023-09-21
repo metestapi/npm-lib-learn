@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/metestapi/npm-lib-learn#readme",
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+    "@metestapi:registry": "https://npm.pkg.github.com"
   }
 }
